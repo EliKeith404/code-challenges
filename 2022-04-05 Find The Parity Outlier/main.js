@@ -11,23 +11,8 @@ Should return: 160 (the only even number)
 */
 
 function findOutlier(integers){
-  let evenCount = 0;
-  let oddCount = 0;
+  let evenArr = integers.filter(a=>a%2===0);
+  let oddArr = integers.filter(b=>b%2!==0);
 
-  for (let i=0; i<3; i++){
-      if (integers[i] % 2 === 0){
-        evenCount++;
-      } else {
-        oddCount++;
-      }
-  }
-
-  for (let j=0; j<integers.length; j++){
-      if (evenCount < oddCount && integers[j] % 2 === 0){
-        return integers[j];
-      } 
-      else if (oddCount < evenCount && integers[j] % 2 !== 0) {
-        return integers[j];
-      }
-  }
+  return evenArr.length > oddArr.length ? oddArr[0] : evenArr[0];
 }
