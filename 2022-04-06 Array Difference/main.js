@@ -17,4 +17,7 @@ function arrayDiff(a, b) {
     // If the element is not an index of 'b', add it to the array.
 
     return (a.filter(x => b.indexOf(x) === -1));
+
+    // Alternate solution: If the element in 'a' is not included in 'b', add it to the array.
+    // return (a.filter( x => !b.includes(x)));
   }
