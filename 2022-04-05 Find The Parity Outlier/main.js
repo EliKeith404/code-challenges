@@ -14,5 +14,5 @@ function findOutlier(integers){
   let evenArr = integers.filter(a=>a%2===0);
   let oddArr = integers.filter(b=>b%2!==0);
 
-  return evenArr.length > oddArr.length ? oddArr[0] : evenArr[0];
+  return evenArr.length === 1 ? evenArr[0] : oddArr[0];
 }
