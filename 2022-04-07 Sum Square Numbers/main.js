@@ -8,4 +8,7 @@ function squareSum(numbers){
     // Take 'numbers' array, square every number using .map(),
     // then reduce() it down by adding all values together. 
     return numbers.map(a=>a**2).reduce((sum, a) => sum + a, 0);
+
+    // Solution ONLY using reduce function
+    return numbers.reduce((sum, a) => sum + a**2, 0);
   }
