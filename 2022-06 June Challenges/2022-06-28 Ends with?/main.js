@@ -13,3 +13,8 @@ function solution(str, ending){
     return true;
   return false;
 }
+
+// Alt Solution
+function solution(str, ending){
+  return str.endsWith(ending);
+}
