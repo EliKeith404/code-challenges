@@ -17,6 +17,10 @@ function minSum(arr) {
     for(let i=0; i<arr.length/2; i++){
         result += arr[i] * arr[arr.length-i-1];
     }
+
+    // Alternate solution
+    while(arr.length)
+        result += arr.shift() * arr.pop();
         
     return result;
 }
