@@ -12,8 +12,8 @@ Note: the digits in the resulting string should be sorted.
 function unusedDigits(...args) {
     // Initialize number list
     let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-    // Format arguments to correct type to match 'numbers'
-    args = args.join('').split('').map(x => x*1);
+    // Format arguments to a single string
+    args = args.join();
   
     // If a digit exists in 'args', remove it from the 'numbers' array and return result
     return numbers.filter(a => !args.includes(a)).join('');
