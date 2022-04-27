@@ -5,6 +5,7 @@ Some cases:
 [68, -1, 1, -7, 10, 10] => [-1, 10]
 */
 
+/*  Old Solution
 function multiplesOfIndex(arr){
     let newArr = [];
     for(let i=0; i<arr.length; i++){
@@ -13,4 +14,9 @@ function multiplesOfIndex(arr){
         }
     }
     return newArr;
+}
+*/
+
+function multiplesOfIndex(arr){
+    return arr.filter((num, i) => num % i === 0);
 }
