@@ -10,5 +10,5 @@ Note: The test cases are very large. You will need a O(log n) solution or better
 */
 
 function divisibleCount(x, y, k) {
-    return x%k == 0 ? Math.floor(y/k) - Math.floor(x/k) + 1 : Math.floor(y/k) - Math.floor(x/k);
+    return Math.floor(y/k) - Math.floor((x-1)/k);
   }
