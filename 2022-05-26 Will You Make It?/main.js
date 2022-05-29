@@ -5,5 +5,5 @@ Function should return true (1 in Prolog, NASM and COBOL) if it is possible and 
 */
 
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-    return mpg * fuelLeft >= distanceToPump ? true : false;
+    return mpg * fuelLeft >= distanceToPump;
   };
