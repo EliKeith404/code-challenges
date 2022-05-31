@@ -16,7 +16,8 @@ Check out my profiles on [Codewars](https://www.codewars.com/users/HiJustEli) an
 <!-- TO-DO -->
 <h2>To-do 📒</h2>
 
-- [ ] Expand to different languages
+- [x] Expand to different languages
+- [x] Organize into folders based on date
 - [ ] Organize into folders based on language
 
 <!-- CONTACT -->
