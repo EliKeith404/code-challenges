@@ -9,7 +9,7 @@ Check out my profiles on [Codewars](https://www.codewars.com/users/HiJustEli) an
 
 - [x] 1 Week streak
 - [x] 1 Month streak
-- [ ] 3 Month streak
+- [x] 3 Month streak
 - [ ] 6 Month streak
 - [ ] 1 Year streak!
 
