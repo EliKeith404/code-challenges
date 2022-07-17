@@ -23,4 +23,4 @@ Check out my profiles on [Codewars](https://www.codewars.com/users/HiJustEli) an
 <!-- CONTACT -->
 <h2>Contact ✉️</h2>
 
-Eli Bass - [Twitter](https://twitter.com/EliKeith404) - [LinkedIn](https://www.linkedin.com/in/elikeith404/) - [ekbass44@gmail.com](ekbass44@gmail.com)
+Eli Bass - ekbass44@gmail.com - [Twitter](https://twitter.com/EliKeith404) - [LinkedIn](https://www.linkedin.com/in/elikeith404/)
